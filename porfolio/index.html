@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- Navigation Bar -->
+    <header>
+      <h1>My Portfolio</h1>
+      <button class="menu-toggle" onclick="toggleMenu()">☰</button>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <div class="social-buttons">
+            <a href="https://www.instagram.com/yourusername" target="_blank">
+              <img
+                src="./containds/instagram-removebg-preview.png"
+                alt="Instagram"
+                width="30"
+                height="30"
+              />
+            </a>
+            <a href="https://www.facebook.com/yourusername" target="_blank">
+              <img
+                src="containds/LinkedIn_icon.svg.png"
+                alt="Facebook"
+                width="30"
+                height="30"
+              />
+            </a>
+          </div>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Home Section -->
+    <section id="home">
+      <p>Hello! I am</p>
+      <h2 class="name">Kumaresh Biswas</h2>
+      <p>I am a <span class="typing"></span></p>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+      <div class="about-content">
+        <img src="./containds/profilepic.jpg" alt="Your Photo" />
+        <div class="about-text">
+          <h2>About Me</h2>
+          <p>
+            Hello! 👋 I'm Kumaresh Biswas, a passionate Web Developer, UI/UX
+            Designer, and Software Engineer with a strong foundation in HTML,
+            CSS, JavaScript, Node.js, React.js, and C programming.
+          </p>
+          <p>
+            Currently, I'm pursuing my B.Tech in Electronics and Communication
+            Engineering at TGPCET, Nagpur. My journey into tech began with a
+            keen interest in problem-solving and digital system design, and
+            since then, I've been continuously learning and building projects
+            that solve real-world problems.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- New Section for Skills, Education, Experience -->
+    <div class="mid">
+      
+    <!-- Sidebar -->
+    <div class="sidebar">
+      <h2>☰ Menu</h2>
+      <ul>
+          <li><a href="#education">Education</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#certificates">Certificates</a></li>
+          <li><a href="#skills">Skills</a></li>
+      </ul>
+  </div>
+
+  <!-- Main Content -->
+  <div class="main-content">
+      <section id="education" class="page-section">
+        <div class="educatiinclass">
+          <h2 class="heading">Education</h2>
+  
+          <div class="education-card">
+            <h3>B.Tech in Electronics & Communication Engineering</h3>
+            <p><strong>Institute:</strong> TGPCET, Nagpur</p>
+            <p><strong>Duration:</strong> 2022 - 2026</p>
+            <p>
+              Currently pursuing my undergraduate degree, where I am gaining
+              knowledge in electronics, communication systems, and digital design.
+            </p>
+          </div>
+  
+          <div class="education-card">
+            <h3>Higher Secondary Education (12th Grade)</h3>
+            <p><strong>School:</strong> NSC Jr College, Sundernagar</p>
+            <p><strong>Year of Completion:</strong> 2022</p>
+            <p><strong>Percentage:</strong> 65%</p>
+            <p>
+              Completed my 12th grade with a focus on science and mathematics,
+              laying a strong foundation for my engineering studies.
+            </p>
+          </div>
+  
+          <div class="education-card">
+            <h3>Secondary Education (10th Grade)</h3>
+            <p><strong>School:</strong> IGM High School, Subhasgram</p>
+            <p><strong>Year of Completion:</strong> 2020</p>
+            <p><strong>Percentage:</strong> 75%</p>
+            <p>
+              Developed a strong academic base and performed well in subjects like
+              mathematics and science, which fueled my interest in engineering.
+            </p>
+          </div>
+        </div>
+        
+      </section>
+
+      <section id="experience" class="page-section">
+         <!-- experience-->
+      <div class="experience-container">
+        <h2 class="experience-heading">My Experience</h2>
+
+        <div class="experience-card software-engineer">
+          <h3>Software Engineer | Web Developer</h3>
+          <p><strong>Company:</strong> [Your Company Name or "Freelance"]</p>
+          <p><strong>Duration:</strong> [Start Date] - Present</p>
+          <p>
+            Developing web applications using HTML, CSS, JavaScript, and
+            React.js. Focusing on UI/UX design and responsive development.
+          </p>
+        </div>
+
+        <div class="experience-card ui-ux-designer">
+          <h3>UI/UX Designer</h3>
+          <p><strong>Company:</strong> [Your Company Name]</p>
+          <p><strong>Duration:</strong> [Start Date] - [End Date]</p>
+          <p>
+            Designed user-friendly interfaces, worked on wireframing and
+            prototyping, and enhanced user experience through interactive
+            design.
+          </p>
+        </div>
+
+        <div class="experience-card c-programmer">
+          <h3>C Programmer</h3>
+          <p><strong>Project:</strong> [Project Name]</p>
+          <p><strong>Duration:</strong> [Start Date] - [End Date]</p>
+          <p>
+            Developed efficient algorithms and implemented C-based solutions,
+            focusing on data structures and performance optimization.
+          </p>
+        </div>
+      </div>
+      
+      </section>
+
+      <section id="certificates" class="page-section">
+        <div class="certificate-container">
+          <h2 class="certificate-heading">My Certificates</h2>
+  
+          <div class="certificate-card web-development">
+            <h3>Web Development Certification</h3>
+            <p><strong>Issued By:</strong> [Organization Name]</p>
+            <p><strong>Date:</strong> [Completion Date]</p>
+            <p>
+              Certified in HTML, CSS, and JavaScript development, focusing on
+              responsive design and modern web technologies.
+            </p>
+          </div>
+  
+          <div class="certificate-card ui-ux">
+            <h3>UI/UX Design Certification</h3>
+            <p><strong>Issued By:</strong> [Organization Name]</p>
+            <p><strong>Date:</strong> [Completion Date]</p>
+            <p>
+              Learned principles of user-centered design, wireframing,
+              prototyping, and usability testing for web and mobile applications.
+            </p>
+          </div>
+  
+          <div class="certificate-card c-programming">
+            <h3>C Programming Certification</h3>
+            <p><strong>Issued By:</strong> [Organization Name]</p>
+            <p><strong>Date:</strong> [Completion Date]</p>
+            <p>
+              Gained expertise in problem-solving, data structures, and algorithm
+              implementation using the C programming language.
+            </p>
+          </div>
+        </div>
+       
+      </section>
+
+      <section id="skills" class="page-section">
+        <section id="skills">
+          <h2>Skills</h2>
+          <div class="skills-container">
+            <div class="skill-box">
+              <h3>HTML</h3>
+              <div class="progress-circle" data-percentage="90">
+                <canvas></canvas>
+                <span>85%</span>
+              </div>
+            </div>
+  
+            <div class="skill-box">
+              <h3>CSS</h3>
+              <div class="progress-circle" data-percentage="85">
+                <canvas></canvas>
+                <span>85%</span>
+              </div>
+            </div>
+  
+            <div class="skill-box">
+              <h3>JavaScript</h3>
+              <div class="progress-circle" data-percentage="75">
+                <canvas></canvas>
+                <span>75%</span>
+              </div>
+            </div>
+  
+            <div class="skill-box">
+              <h3>React.js</h3>
+              <div class="progress-circle" data-percentage="80">
+                <canvas></canvas>
+                <span>80%</span>
+              </div>
+            </div>
+  
+            <div class="skill-box">
+              <h3>Node.js</h3>
+              <div class="progress-circle" data-percentage="70">
+                <canvas></canvas>
+                <span>70%</span>
+              </div>
+            </div>
+  
+            <div class="skill-box">
+              <h3>UI/UX Design</h3>
+              <div class="progress-circle" data-percentage="95">
+                <canvas></canvas>
+                <span>95%</span>
+              </div>
+            </div>
+          </div>
+        </section>
+   
+    </div> 
+  
+      </section>
+  </div>
+
+  <script src="sidebar.js"></script>
+
+
+        <!-- certificate-->
+       <!-- skills-->
+      
+    <div class="end">
+      <!-- Projects Section -->
+      <section id="projects">
+        <h2>My Projects</h2>
+        <div class="projects-container">
+          <div class="project">
+            <h3>Project 1</h3>
+            <p>Short description of the project.</p>
+          </div>
+          <div class="project">
+            <h3>Project 2</h3>
+            <p>Short description of the project.</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Contact Section -->
+      <section id="contact">
+        <h2>Contact Me</h2>
+        <div class="contact-container">
+          <form id="contact-form" class="contact-form">
+            <input type="text" id="name" placeholder="Your Name" required />
+            <input type="email" id="email" placeholder="Your Email" required />
+            <textarea
+              id="message"
+              placeholder="Your Message"
+              required
+            ></textarea>
+            <button type="submit">Send</button>
+          </form>
+          <p id="form-message"></p>
+        </div>
+      </section>
+
+      <!-- Footer -->
+      <footer>
+        <p>&copy; 2025 Kumaresh Biswas. All Rights Reserved.</p>
+      </footer>
+    </div>
+
+    <script src="typing.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
